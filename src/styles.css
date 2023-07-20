@@ -1,0 +1,230 @@
+:root {
+  --Text: #000502;
+  --Background: #d8fde3;
+  --Primary: #fa9ee0;
+  --Secondary: #fcdccf;
+  --Accent: #f20db1;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: var(--Background);
+  color: var(--Text);
+}
+.gallery-wrapper {
+  /* width: 1200px;*/
+  margin: 0 auto;
+}
+.food-gallery {
+  text-align: center;
+  font-size: 35px;
+  background: #000502;
+  background: linear-gradient(
+    to bottom left,
+    #000502 0%,
+    #fcdccf 37%,
+    #f20db1 77%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.image_rice {
+  width: 200px;
+  height: 180px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  /*margin-left: 10px;*/
+}
+.image_soup {
+  width: 200px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  /*margin-left: 10px;*/
+}
+.image_spaghetti {
+  width: 200px;
+  height: 200px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  /*margin-left: 10px;*/
+}
+.image_plantain {
+  width: 200px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  /*margin-left: 10px;*/
+}
+.image_friedrice {
+  width: 200px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  /*margin-left: 10px;*/
+}
+.image_gizzard {
+  width: 200px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  /*margin-left: 10px;*/
+}
+.image-soup1 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-soup2 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-soup3 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-soup4 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-soup5 {
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-soup6 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-pastries1 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-pastries2 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-pastries3 {
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-pastries4 {
+  width: 150px;
+  height: 130px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-pastries5 {
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-pastries6 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-starter1 {
+  width: 180px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 150px;
+}
+.image-starter2 {
+  width: 200px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-starter3 {
+  width: 180px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-starter4 {
+  width: 180px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-starter5 {
+  width: 170px;
+  height: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.image-starter6 {
+  width: 150px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+#food,
+#soup-gallery,
+#pastries,
+#other-foods {
+  text-align: center;
+  font-size: 28px;
+}
+h6 {
+  margin-right: 5px;
+}
+@media screen and (max-width: 780px) {
+  .col-2 {
+    width: 100%;
+    margin: 30px auto;
+    align-items: center;
+  }
+  .gallery-wrapper {
+    align-items: center;
+  }
+  .image_friedrice,
+  .image_gizzard,
+  .image_plantain,
+  .image_rice,
+  .image_soup,
+  .image_spaghetti {
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+  }
+  .image-soup1,
+  .image-soup2,
+  .image-soup3,
+  .image-soup4,
+  .image-soup5,
+  .image-soup6 {
+    width: 300px;
+    height: 250px;
+    margin-left: 70px;
+  }
+}
