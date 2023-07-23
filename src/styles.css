@@ -33,20 +33,25 @@ body {
 }
 .image_rice {
   width: 200px;
-  height: 180px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
   /*margin-left: 10px;*/
 }
+h4 {
+  font-size: 16px;
+  text-align: center;
+}
 .image_soup {
   width: 200px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
   /*margin-left: 10px;*/
 }
 .image_spaghetti {
   width: 200px;
-  height: 200px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
   /*margin-left: 10px;*/
@@ -65,93 +70,105 @@ body {
   border-radius: 10px;
   /*margin-left: 10px;*/
 }
+.card {
+  background-color: var(--Secondary);
+}
 .image_gizzard {
   width: 200px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
   /*margin-left: 10px;*/
 }
 .image-soup1 {
-  width: 150px;
+  width: 180px;
+  height: 200px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-soup2 {
-  width: 150px;
+  width: 130px;
+  height: 200px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-soup3 {
-  width: 150px;
+  width: 130px;
+  height: 200px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-soup4 {
-  width: 150px;
+  width: 130px;
+  height: 200px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-soup5 {
+  width: 130px;
+  height: 200px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 0px;
+}
+.image-soup6 {
+  width: 130px;
+  height: 200px;
+  border: 3px solid var(--Accent);
+  border-radius: 10px;
+  margin-left: 0px;
+}
+.image-pastries1 {
   width: 150px;
   height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
-}
-.image-soup6 {
-  width: 150px;
-  border: 3px solid var(--Accent);
-  border-radius: 10px;
-  margin-left: 10px;
-}
-.image-pastries1 {
-  width: 150px;
-  border: 3px solid var(--Accent);
-  border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-pastries2 {
   width: 150px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-pastries3 {
   width: 150px;
   height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-pastries4 {
   width: 150px;
-  height: 130px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-pastries5 {
   width: 150px;
   height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-pastries6 {
   width: 150px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-starter1 {
   width: 180px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
   height: 150px;
 }
 .image-starter2 {
@@ -159,34 +176,35 @@ body {
   height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-starter3 {
   width: 180px;
   height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-starter4 {
   width: 180px;
   height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-starter5 {
   width: 170px;
   height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .image-starter6 {
   width: 150px;
+  height: 150px;
   border: 3px solid var(--Accent);
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 #food,
 #soup-gallery,
@@ -198,24 +216,39 @@ body {
 h6 {
   margin-right: 5px;
 }
+.card img {
+  width: 12.5rem;
+}
+.card {
+  width: 12.5rem;
+}
+
 @media screen and (max-width: 780px) {
   .col-2 {
     width: 100%;
-    margin: 30px auto;
+    /*margin: 30px auto;*/
     align-items: center;
+  }
+  .card {
+    visibility: hidden;
+  }
+  img {
+    visibility: visible;
   }
   .gallery-wrapper {
     align-items: center;
+    margin: 10px auto;
   }
+
   .image_friedrice,
   .image_gizzard,
   .image_plantain,
   .image_rice,
   .image_soup,
   .image_spaghetti {
-    width: 300px;
-    height: 200px;
-    margin-left: 100px;
+    /*width: 500px;
+    height: 200px;*/
+    margin: auto 130px;
   }
   .image-soup1,
   .image-soup2,
@@ -223,8 +256,71 @@ h6 {
   .image-soup4,
   .image-soup5,
   .image-soup6 {
-    width: 300px;
-    height: 250px;
-    margin-left: 70px;
+    /*width: 300px;
+    height: 250px;*/
+    margin: auto 125px;
+  }
+  .image-pastries1,
+  .image-pastries2,
+  .image-pastries3,
+  .image-pastries4,
+  .image-pastries5,
+  .image-pastries6 {
+    margin: auto 130px;
+    /*width: 300px;
+    height: 200px;*/
+  }
+  .image-starter1,
+  .image-starter2,
+  .image-starter3,
+  .image-starter4,
+  .image-starter5,
+  .image-starter6 {
+    margin: auto 130px;
+    /*width: 300px;
+    height: 200px;*/
+  }
+  #food {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .image_friedrice,
+  .image_gizzard,
+  .image_plantain,
+  .image_rice,
+  .image_soup,
+  .image_spaghetti {
+    width: 150px;
+    height: 100px;
+    margin: auto 115px;
+  }
+  .image-soup1,
+  .image-soup2,
+  .image-soup3,
+  .image-soup4,
+  .image-soup5,
+  .image-soup6 {
+    width: 150px;
+    height: 100px;
+    margin: auto 85px;
+  }
+  .image-pastries1,
+  .image-pastries2,
+  .image-pastries3,
+  .image-pastries4,
+  .image-pastries5,
+  .image-pastries6 {
+    margin: auto 95px;
+  }
+  .image-starter1,
+  .image-starter2,
+  .image-starter3,
+  .image-starter4,
+  .image-starter5,
+  .image-starter6 {
+    margin: auto 95px;
+    width: 150px;
+    height: 100px;
   }
 }
